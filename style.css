@@ -1,0 +1,79 @@
+.home {
+    color: whitesmoke;
+    background-color: #18191a;
+}
+
+.rumus {
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.jm-ju {
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.akhir-tahun {
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.alokasi-shu {
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.sp-sj {
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.penyelesaian {
+
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box-shu-anggota1 {
+
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box-shu-anggota2 {
+    background-color: #212529;
+    border-radius: 15px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.sp-sj {
+    background-color: #212529;
+    border-radius: 15px;
+}
+
+
+/* all input box */
+.input-all {
+    padding: 4px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #212529;
+    list-style-type: none;
+}
+
+/* kalkulasi */
+.kalkulasi {
+    padding: 10px;
+    border-radius: 10px;
+}

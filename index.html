@@ -1,0 +1,306 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkuklator</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- my-css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- animate scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container-fluid home">
+        <div class="container " >
+            <div class="row px-3">
+                <div class="col-12 d-flex  py-5 flex-column text-start rumus" >
+                    <h3 class="text-center mb-4"><i class="fas fa-scissors " style="color: aqua;"></i> Rumus SHU</h3>
+                    <p>SHUpa : sisa hasil usaha per anggota</p>
+                    <p>JU : jasa usaha anggota</p>
+                    <p>JM : jasa modal anggota</p>
+                    <p>Vd : volume usaha anggota (jumlah belanja)</p>
+                    <p>Vuk : total volume usaha koperasi  </p>
+                    <p>Sa : jumlah simpanan anggota</p>
+                    <p>Tms : total simpanan semuas anggota</p>
+                    <p>Jua : jasa usaha per anggota</p>
+                    <p>Jma : jasa modal per anggota</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3 " >
+            <div class="container my-4 py-3 jm-ju " data-aos= "fade-up-right" data-aos-duration= "1000">
+                <h5 class="text-center mb-4"><i class="fas fa-hand-point-right" style="color: springgreen;"></i> Jasa modal dan jasa usaha yang disepakati dalam RAT (rapat anggran tahunan)</h5>
+
+                <div class="col-12 d-flex">
+                    <P>Jasa Modal</P>
+                    <input type="text" id="jasa-modal" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>Jasa Usaha</P>
+                    <input type="text" id="jasa-usaha" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+            </div>
+
+            <div class="container py-3 my-4 akhir-tahun" data-aos= "fade-up-left" data-aos-duration= "1000" >
+
+                <h5 class="text-center mb-4"><i class="fas fa-calendar-days" style="color: sandybrown;"></i> akhir tahun koperasi memperoleh</h5>
+
+                <div class="col-12 d-flex ">
+                    <P>SHU bersih</P>
+                    <input type="text" id="shu-bersih" class="input-all">
+                </div>
+                <div class="col-12 d-flex">
+                    <P>Modal koperasi</P>
+                    <input type="text" id="modal-koperasi" class="input-all">
+                </div>
+                <div class="col-12 d-flex">
+                    <P>Omset penjualan 1 tahun</P>
+                    <input type="text" id="omset-penjualan" class="input-all">
+                </div>
+            </div>
+
+            <div class="container mt-2 py-3 my-4 alokasi-shu" data-aos= "fade-up-right" data-aos-duration= "1000">
+
+                <h5 class="text-center mb-4"><i class="fas fa-location-crosshairs" style="color: red;"></i> pengalokasian SHU</h5>
+
+                <div class="col-12 d-flex">
+                    <P>dana cadangan</P>
+                    <input type="text" id="dana-cadangan" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>jasa anggota</P>
+                    <input type="text" id="jasa-anggota" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>dana pengurus</P>
+                    <input type="text" id="dana-pengurus" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>dana karyawan</P>
+                    <input type="text" id="dana-karyawan" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>dana sosial</P>
+                    <input type="text" id="dana-sosial" class="input-all">
+                    <p class="m-2"><i class="fa-regular fa-percent" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>dana patungan lingkungan</P>
+                    <input type="text" id="dana-patungan-lingkungan" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+                <div class="col-12 d-flex">
+                    <P>Omset penjualan 1 tahun</P>
+                    <input type="text" class="input-all">
+                    <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                </div>
+            </div>
+
+            <div class="container my-2 py-3 sp-sj my-4" data-aos= "fade-up-left" data-aos-duration= "1000">
+                <h5 class="text-center mb-4"><i class="fas fa-donate" style="color: yellow;"></i> Simpanan pokok, simpanan wajib & jumlah belanja anggota 1</h5>
+
+                <div class="col-12 d-flex">
+                    <P>simpanan poko & wajib</P>
+                    <input type="text" id="sp-sw1" class="input-all">
+                </div>
+                <div class="col-12 d-flex">
+                    <P>jumlah belanja</P>
+                    <input type="text" id="jb-1" class="input-all">
+                </div>
+            </div>
+
+            <div class="container my-2 py-3 sp-sj" data-aos= "fade-up-right" data-aos-duration= "1000">
+                <h5 class="text-center mb-4"><i class="fas fa-donate" style="color: yellow;"></i> Simpanan pokok, simpanan wajib & jumlah belanja anggota 2</h5>
+
+                <div class="col-12 d-flex">
+                    <P>simpanan poko & wajib</P>
+                    <input type="text" id="sp-sw2" class="input-all">
+                </div>
+                <div class="col-12 d-flex">
+                    <P>jumlah belanja</P>
+                    <input type="text" id="jb-2" class="input-all">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 text-center" data-aos= "fade-zoom-in" data-aos-duration= "1000">
+            <button type="button" class="kalkulasi" onclick="jasaAnggota()">kalkulasi</button>
+        </div>
+
+<!-- ===================== penyelesaian ============================== -->
+        <div class="container mt-4">
+            <div class="row a">
+                <div class="container py-3 penyelesaian" data-aos= "fade-up-left" data-aos-duration= "1000">
+                    <div class="col-12">
+                        <h5 class="text-center mb-4">Penyelesaian</h5>
+                    </div>
+                    <div class="col-12 d-flex gap-2 " id="ja">
+                        <p><b> jasa anggota </b></p>
+                        <p id="janggota">jasa anggota</p>
+                        <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                        <p>x</p>
+                        <p id="sbersih">SHU bersih</p>
+                        <p>=</p>
+                        <p id="hasil-ja">hasil</p>
+                    </div>
+
+                    <div class="col-12 d-flex gap-2" id="jm">
+                        <p><b>jasa modal</b> </p>
+                        <p id="jm-1">jasa anggota</p>
+                        <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                        <p>x</p>
+                        <p id="m-p">modal koperasi</p>
+                        <p>=</p>
+                        <p id="hasil-jm">hasil</p>
+                    </div>
+
+                    <div class="col-12 d-flex gap-2" id="">
+                        <p><b>jasa usaha</b> </p>
+                        <p id="j-u">jasa usaha</p>
+                        <p class="m-2"><i class="fa-reguler fa-percentage" style="color: coral; "></i></p>
+                        <p class="m-1">x </p>
+                        <p id="m-k">modal koperasi</p>
+                        <p>=</p>
+                        <p id="hasil-ju">hasil</p>
+                    </div>
+                </div>
+
+                
+                <!-- SHU anggota  1-->
+                <div class="col-12  my-4" >
+                    <div class="col-lg-6 col-sm-12 mt-2 m-auto box-shu-anggota1 p-3 my-4" data-aos= "fade-up-right" data-aos-duration= "1000" >
+
+                        <h5 class="text-center mb-4"><i class="fas fa-user" style="color: silver;"></i> SHU anggota 1</h5>
+
+                        <p><b> jasa modal </b></p>
+                        <p>Sa x Jum / Tms</p>
+                        <div class="col-12 gap-2 mr-2 fled-column">
+                            <div class="col-12 d-flex gap-1 mx-3 flex-wrap">
+                                <p id="sa-user-1"></p>
+                                <p>x</p>
+                                <p id="jum-user-1"></p>
+                                <p>/</p>
+                                <p id="map"></p>
+                                <p>=</p>
+                                <p class="text-center" id="hasil-jm-1"></p>
+                            </div>
+                            <div class="col-12">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 mt-2 m-auto box-shu-anggota1 p-3 my-4" data-aos= "fade-up-left" data-aos-duration= "1000">
+                        <p><b> jasa usaha </b></p>
+                        <p><b>Va x Ju / Vuk</b> </p>
+                        <div class="col-12 gap-2 mr-2 fled-column">
+                            <div class="col-12 d-flex gap-1 mx-3 flex-wrap">
+                                <p id="va-user-1"></p>
+                                <p>x</p>
+                                <p id="ju-user-1"></p>
+                                <p>/</p>
+                                <p id="mup"></p>
+                                <p>=</p>
+                                <p class="text-center" id="hasil-ju-1"><b></b></p>
+                            </div>
+                            <div class="col-12">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 m-auto mt-2 box-shu-anggota1 p-3 my-4" data-aos= "fade-up-right" data-aos-duration= "1000" >
+                        <h5>Total SHU</h5>
+                        <div class="container">
+                            <i class="fas fa-rupiah-sign mt-1" style="color: chartreuse;"></i>
+                            <p id="total-shu-user1"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- shu anggota 2 -->
+                <div class="col-12 mt-5" >
+                    <div class="col-lg-6 col-sm-12 m-auto mt-2 box-shu-anggota2 p-3 my-4" data-aos= "fade-up-left" data-aos-duration= "1000" >
+
+                        <h5 class="text-center mb-4"><i class="fas fa-user-group" style="color: silver;"></i> SHU anggota 2</h5>
+
+                        <p><b> jasa modal </b></p>
+                        <p>Sa x Jum / Tms</p>
+                        <div class="col-12 gap-2 mr-2 fled-column">
+                            <div class="col-12 d-flex gap-1 mx-3 flex-wrap">
+                                <p id="sa-user-2"></p>
+                                <p>x</p>
+                                <p id="jum-user-2"></p>
+                                <p>/</p>
+                                <p id="map-1"></p>
+                                <p>=</p>
+                                <p class="text-center" id="hasil-jm-2"></p>
+                            </div>
+                            <div class="col-12">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 m-auto mt-2 box-shu-anggota2 p-3 my-4" data-aos= "fade-up-right" data-aos-duration= "1000">
+                        <p><b> jasa usaha </b></p>
+                        <p><b>Va x Ju / Vuk</b> </p>
+                        <div class="col-12 gap-2 mr-2 fled-column">
+                            <div class="col-12 d-flex gap-1 mx-3 flex-wrap">
+                                <p id="va-user-2"></p>
+                                <p>x</p>
+                                <p id="ju-user-2"></p>
+                                <p>/</p>
+                                <p id="mup-1"></p>
+                                <p>=</p>
+                                <p class="text-center" id="hasil-ju-2"><b></b></p>
+                            </div>
+                            <div class="col-12">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 m-auto mt-2 mb-5 box-shu-anggota2 p-3 d" data-aos= "fade-up-left" data-aos-duration= "1000">
+                        <h5>Total SHU</h5>
+                        <div class="container d-flex gap-2">
+                            <i class="fas fa-rupiah-sign mt-1" style="color: chartreuse;"></i>
+                            <p id="dua"></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-center "> <b><i class="fas fa-user" style="color: silver;"></i> Hermawan Saputra</b></p>
+        </div>
+    </div>
+
+
+
+
+<script src="index.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- AOS  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        once: true,
+    });
+    
+  </script>
+ <!-- AOS -->
+</body>
+</html>
